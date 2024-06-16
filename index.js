@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(
 	cors({
 		origin: ["http://localhost:3000",
-			// "https://study-notion-lake.vercel.app",
+			"https://studynotion-backend-c9s6.onrender.com",
 			// "https://studynotion.tech"
 		],
 		credentials: true,
