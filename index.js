@@ -26,8 +26,6 @@ app.use(cookieParser());
 app.use(
 	cors({
 		origin: ["http://localhost:3000",
-			// "https://studynotion-backend-c9s6.onrender.com",
-			// "https://studynotion.tech"
 		],
 		credentials: true,
 	})
