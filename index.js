@@ -26,7 +26,8 @@ app.use(cookieParser());
 app.use(
 	cors({
 		origin: ["http://localhost:3000",
-			'https://studynotion-tau.vercel.app',
+			"https://studynotion-tau.vercel.app",
+			 "https://studynotion-codesphere.onrender.com",
 		],
 		credentials: true,
 	})
